@@ -131,7 +131,7 @@ FoodNode* searchFoodById(int id) {
 }
 
 /* containsIgnoreCase(): manual case-insensitive substring search
-   (portable — doesn't rely on the non-standard strcasestr) */
+   (portable â€” doesn't rely on the non-standard strcasestr) */
 int containsIgnoreCase(const char *haystack, const char *needle) {
     if (*needle == '\0') return 1;  /* empty search matches everything */
     for (int i = 0; haystack[i] != '\0'; i++) {
